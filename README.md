@@ -8,9 +8,9 @@ Detta projekt innehåller en enkel datapipeline som:
 - Visualiseras i Jupyter Notebook
 
 ## Struktur
-- dags/ – Airflow DAG
-- scripts/ – ETL-logik och databashantering
-- notebooks/ – Jupyter Notebook för visualisering
+- airflow/dags/ – Airflow DAG
+- airflow/scripts/ – ETL-logik och databashantering
+- airflow/ – Jupyter Notebook för visualisering
 
 ## Krav
 - Python 3.9+
